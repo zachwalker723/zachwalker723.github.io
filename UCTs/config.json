@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Zach Walker"
+  },
+  "text": {
+    "more": "A social network of the supposed conspirators involved in various UCTs surrounding Project MKUltra, organized by node size based on degree centrality. Green nodes depict government figures, purple nodes depict prominent social figures, red nodes depict international organizations or events, and blue nodes depict nodes originally found in the social network of major institutions or major conspirators.\n",
+    "intro": "Major UCTs based on degree centrality.",
+    "title": "UCTs (Degree Centrality)"
+  },
+  "legend": {
+    "edgeLabel": "Connections",
+    "colorLabel": "Conspiracy Type",
+    "nodeLabel": "Conspirators"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
